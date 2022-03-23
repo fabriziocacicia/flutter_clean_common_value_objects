@@ -1,9 +1,9 @@
-#TODO: set the package name
-name: my_dart_package
-#TODO: set the package description
-description: A starting point for Dart libraries or applications.
+name: flutter_clean_common_value_objects
+description: Common value objects for the domain layer of Clean Architecure
 version: 0.0.1
-publish_to: none
+
+environment:
+  sdk: '>=2.16.0-134.1.beta <3.0.0'
 
 environment:
   sdk: '>=2.18.0 <3.0.0'
