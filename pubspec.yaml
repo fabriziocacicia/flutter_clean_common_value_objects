@@ -23,4 +23,4 @@ dev_dependencies:
   flutter_clean_domain_test:
     git:
       url: git@github.com:fabriziocacicia/flutter_clean_domain_test.git
-      ref: v1.4.0
+      ref: v1.4.1
