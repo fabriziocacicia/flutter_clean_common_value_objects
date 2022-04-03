@@ -1,6 +1,6 @@
 name: flutter_clean_common_value_objects
 description: Common value objects for the domain layer of Clean Architecture
-version: 0.0.1
+version: 0.1.0
 
 environment:
   sdk: '>=2.16.0-134.1.beta <3.0.0'
