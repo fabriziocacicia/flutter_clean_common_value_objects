@@ -5,6 +5,9 @@ import 'package:meta/meta.dart';
 
 import 'non_negative_number_failure.dart';
 
+export 'non_negative_number_failure.dart';
+export 'non_negative_number_validator.dart';
+
 class NonNegativeNumber extends ValueObject<num> {
   final Either<NonNegativeNumberFailure, num> _value;
 
