@@ -3,7 +3,8 @@ layer of Clean Architecture.
 
 ## Features
 
-TODO: 
+### NonNegativeNumber
+A `ValueObject` that represent any non-negative number, either integer or decimal.
 
 ## Getting started
 
