@@ -1,4 +1,4 @@
-## Unreleased
+## 0.1.1
 
 - Fixed an issue that prevent using the `NonNegativeNumber` features
 
