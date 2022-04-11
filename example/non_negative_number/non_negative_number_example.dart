@@ -1,6 +1,6 @@
 import 'package:flutter_clean_common_value_objects/flutter_clean_common_value_objects.dart';
 
-main() {
+void main() {
   final validNonNegativeNumber = NonNegativeNumber(10);
   print(validNonNegativeNumber.value);
   print(validNonNegativeNumber.isValid());
