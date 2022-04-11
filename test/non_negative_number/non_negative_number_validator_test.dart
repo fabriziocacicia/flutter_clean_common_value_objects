@@ -5,7 +5,7 @@ import 'package:flutter_clean_domain_test/flutter_clean_domain_test.dart';
 import 'package:test/test.dart';
 
 void main() {
-  valueFailureFactory(invalidValue) =>
+  valueFailureFactory(num invalidValue) =>
       NonNegativeNumberFailure(invalidValue: invalidValue);
 
   testValidatorOnValidValues<num>(
