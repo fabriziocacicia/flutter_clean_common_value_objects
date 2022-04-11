@@ -8,6 +8,9 @@ import 'non_negative_number_failure.dart';
 export 'non_negative_number_failure.dart';
 export 'non_negative_number_validator.dart';
 
+/// A [ValueObject] that represents a non-negative number.
+///
+/// The number can be either an integer or a decimal.
 class NonNegativeNumber extends ValueObject<num> {
   final Either<NonNegativeNumberFailure, num> _value;
 
