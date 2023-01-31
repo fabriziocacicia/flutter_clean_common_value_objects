@@ -1,5 +1,4 @@
 include: package:dart_lint_rules/packages.yaml
-
 analyzer:
   language:
     strict-casts: true

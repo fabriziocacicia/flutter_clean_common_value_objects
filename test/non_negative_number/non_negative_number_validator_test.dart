@@ -4,8 +4,8 @@ import 'package:flutter_clean_common_value_objects/src/non_negative_number/non_n
 import 'package:flutter_clean_domain_test/flutter_clean_domain_test.dart';
 import 'package:test/test.dart';
 
-main() {
-  valueFailureFactory(invalidValue) =>
+void main() {
+  valueFailureFactory(num invalidValue) =>
       NonNegativeNumberFailure(invalidValue: invalidValue);
 
   testValidatorOnValidValues<num>(
