@@ -4,7 +4,7 @@ import 'package:mocktail/mocktail.dart';
 
 class MockNonNegativeNumber extends Mock implements NonNegativeNumber {}
 
-main() {
+void main() {
   final validNonNegativeNumberValue = 1;
   final validNonNegativeNumber = NonNegativeNumber(validNonNegativeNumberValue);
 
