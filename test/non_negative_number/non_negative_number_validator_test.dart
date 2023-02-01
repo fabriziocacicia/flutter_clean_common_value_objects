@@ -51,7 +51,7 @@ void main() {
     final validationResult = validateNonNegativeDecimal(value);
 
     //assert
-    expect(validationResult, isA<Left>());
+    expect(validationResult, isA<Left<NonNegativeNumberFailure, num>>());
   });
 
   testValidatorOnInvalidValues<num>(
